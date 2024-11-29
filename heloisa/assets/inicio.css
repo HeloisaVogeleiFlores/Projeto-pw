@@ -1,0 +1,94 @@
+
+body {
+    background-image: url(img/albuns.jpg);
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    text-align: center;
+}
+
+label {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    align-items: center;
+}
+
+.container {
+    width: 1500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    opacity: 80%;
+}
+
+.filter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+select, input {
+    padding: 8px;
+    border: 1px solid #707070;
+    border-radius: 4px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.links {
+    background-color: rgb(187, 190, 192);
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    height: 645px;
+    opacity: 90%;
+}
+
+.btncantor, .btnalbuns,.btnmusic {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:  rgb(187, 190, 192);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btncantor:hover, .btnalbuns:hover,.btnmusic:hover {
+    border: solid 2px rgb(255, 255, 255);
+    background-color: rgb(236, 236, 236);
+}
+
+
+a {
+    color: black;
+    text-decoration: none;
+}

@@ -1,0 +1,57 @@
+.links {
+    background-color: rgb(187, 190, 192);
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    height: 645px;
+    opacity: 90%;
+}
+
+.btncantor, .btnalbuns,.btnmusic {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:  rgb(187, 190, 192);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btncantor:hover, .btnalbuns:hover,.btnmusic:hover {
+    border: solid 2px rgb(255, 255, 255);
+    background-color: rgb(236, 236, 236);
+}
+
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+body {
+    background-image: url(img/albuns.jpg);
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    text-align: center;
+}
+
+.container {
+    width: 1500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    opacity: 90%;
+}
+
+img {
+    width: 70%;
+    height: 90%;
+    margin-left: 15%;
+}
